@@ -85,6 +85,7 @@ var renderTurn = function(square) {
 /** Clears the board */
 
 var resetBoard = function() {
+  isGameOver = false;
   currentState = baseState();
   turn = "X";
   initGame();
